@@ -1,10 +1,55 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #menu-bar {
-    font-family: cursive;
-    display: inline;
+    background-color: #1b998b;
+    padding: 6px;
+    text-align: right;
+    word-spacing: 1em;
+    
 }
 
 #menu-bar li {
+    font-size: 1.2em;
     display: inline;
-    
-    
+}
+
+#menu-bar a {
+    color: #f4aa56;
+    text-decoration: none;
+}
+
+#heading {
+    text-align: center;
+    color: #0d160b;
+}
+
+#main-content {
+    display: flex;
+}
+
+#section-a {
+    background-color: #b69f81;
+    color: #0d160b;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+#section-a h2 {
+    text-align: center;
+}
+
+#section-b {
+    background-color: #b69f81;
+    color: #0d160b;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+#section-b h2 {
+    text-align: center;
 }
